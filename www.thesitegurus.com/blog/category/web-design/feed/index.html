@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Web Design &#8211; Dezvolta</title>
+	<atom:link href="https://www.dezvolta.com/blog/category/web-design/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.dezvolta.com</link>
+	<description>Your Digital Marketing Success. Delivered.</description>
+	<lastBuildDate>Sun, 01 Dec 2019 01:11:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.1</generator>
+	<item>
+		<title>Step-by-Step Guide to Speed up WordPress website</title>
+		<link>https://www.dezvolta.com/blog/speed-up-wordpress/</link>
+				<comments>https://www.dezvolta.com/blog/speed-up-wordpress/#respond</comments>
+				<pubDate>Sat, 26 Jan 2019 04:34:24 +0000</pubDate>
+		<dc:creator><![CDATA[Ananda Kannan S P]]></dc:creator>
+				<category><![CDATA[Web Design]]></category>
+
+		<guid isPermaLink="false">https://www.dezvolta.com/?p=314</guid>
+				<description><![CDATA[If your WordPress website takes more than 3 seconds to load its no good news for your business. Slow website leads to increased bounce rate, drop in search engine rankings &#038; poor UX. WordPress is a great platform if you use it the right way. This guide on "Speeding up your WordPress Website" will help you optimise the most important factors slowing down your WordPress website.]]></description>
+								<content:encoded><![CDATA[
+<div class="useful-list-items">
+<h2 style="font-family:Unlock; margin-bottom:20px;">14 Tips to Speed up WordPress:</h2>
+<div>
+<h2>1. Run a PageSpeed test</h2>
+<p><a target="blank" class="implink" href="https://gtmetrix.com/" rel="noopener noreferrer">GTMetrix</a> &#038; <a target="blank" class="implink" href="https://developers.google.com/speed/pagespeed/insights/" rel="noopener noreferrer">Google PageSpeed Insights</a> are the most popular tools to test page speed of any website. Google PageSpeed Insights is my personal favourite. These tools will get you a detailed report on what issues you have to resolve to speed up your website.</p>
+<img src="https://tsg.b-cdn.net/Run-a-PageSpeed-test.png" alt="WordPress Speed jumped 60% after optimisation - Tested with GTmetrix">
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>2. Use a Custom WordPress theme</h2>
+<p>More than 70% of WordPress websites are using pre-built templates from market places. Testing it with Google PageSpeed insights you will shock you! Mobile page speed score will be less than 50%. Thats because of tons of modules that comes as features which you will never use. Unless you use a good WordPress theme you will be landing in a no-mans land. It will be nightmare to optimise your WordPress website. So choose your WordPress theme wisely! I prefer a custom built theme. You will have complete control over the theme and optimise it for performance.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>3. Optimise Images</h2>
+<p>You can compress and serve scaled images. I use compressjpeg.com to compress jpeg and compresspng.com to compress png. You can use modern day image formats like WebP, JPEG XR or JPEG 2000. You have to be aware of the fact browsers like Mozilla and Safari are not supporting WebP.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>4. Merge JS &#038; CSS files</h2>
+<p>Use fewer JS &#038; CSS files. Lesser the request will lead to better performance.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>5. Defer blocking CSS &#038; JS</h2>
+<p>Deferring blocking CSS &#038; JS files will allow the browser to print the page immediately. You can use defer attribute to defer your JS files and pass css path using JS after detecting page load.</p> 
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>6. Use CSS Image Sprites</h2>
+<p>Using image sprites will reduce the number of requests your web page has. Combine social media icons and other icons into one image. This will show a drastic improvement in performance. We accomplished this in Dezvolta&#8217;s official website. We combined 30+ images into one image sprite reducing 29 extra requests.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>7. Use Lazy-load</h2>
+<p>If your website has lots of images? Lazy load your images so your images will render only when the user scrolls to that section. You can see a jump in performance as soon as you use this technique. Refer this article on Google which explains how to <a target="blank" class="implink" href="https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/" rel="noopener noreferrer">lazy load images &#038; video.</a></p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>8. Enable Gzip &#038; Leverage browser caching</h2>
+<p>Copy &#038; paste the following lines in your .htaccess file.  This will enable Gzip &#038; <a href="https://wpdatatables.com/leverage-browser-caching/" target="blank" class="implink"  rel="noopener noreferrer">leverage browser caching</a>.</p>
+<pre><code><IfModule mod_deflate.c>
+# Compress HTML, CSS, JavaScript, Text, XML and fonts
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/javascript
+
+# Remove browser bugs (only needed for really old browsers)
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive On
+
+# Images
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+
+# CSS, JavaScript
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+
+# Video
+ExpiresByType video/mp4 "access plus 1 year"
+ExpiresByType video/mpeg "access plus 1 year"
+
+# Others
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+</IfModule>
+</code></pre>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>9. Replace Slider Revolution with Owl Carousel</h2>
+<p>Slider Revolution will slow down your WordPress website. You can consider simple alternatives like owl carousel or any custom sliders.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>10. Replace Yoast SEO with All In One SEO</h2>
+<p>Yoast SEO is the most popular SEO plugin. If you replace it with <a class="implink" target="blank" href="https://wordpress.org/plugins/all-in-one-seo-pack/" rel="noopener noreferrer">All in One SEO</a> you can see 10% jump in Google PageSpeed Score.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>11. Use PHP 7</h2>
+<p>PHP 7 is twice as fast as PHP 5. It has better memory consumption than PHP 5. Your WordPress will run lot faster in PHP 7.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>12. Use a CDN</h2>
+<p>You can avoid latency issues by investing on the right CDN. Our visitors are from Europe, US &#038; India so our CDN locations are North America, Europe &#038; Tokyo. If you are looking for cost effective &#038; easy to use option i recommend BunnyCDN.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>13. Remove any unused Plugins</h2>
+<p>Uninstall unused plugins. If you follow the above steps you don&#8217;t even need a caching plugin. We don&#8217;t use a caching plugin for our website.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>14. Choose a Good hosting Company</h2>
+<p>I recommend highly secure &#038; high-performance WordPress hosting from SiteGround. If you are looking for high performance cloud hosting you can prefer:
+<ul><li>Amazon AWS</li><li>Google Cloud</li><li>Linode(Linode offers managed cloud hosting services)</li></ul></p>
+</div>
+<p>&nbsp;</p>
+<h2>Conclusion:</h2>
+<p>If you are a developer you can use these tips to optimise your website. If not, you may hire a best website development company or a WordPress expert who can fix it for you. Looking for tips to choose the right web design company? Refer &#8220;<a href="https://www.dezvolta.com/how-to-choose-a-web-design-company/" class="implink">how to choose a web design company</a>&#8221; to choose the best web design company.</p>
+<p>Hope you found it is useful!</p>
+</div>
+<p>&nbsp;</p>
+
+
+
+<p></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.dezvolta.com/blog/speed-up-wordpress/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>5 Things to Avoid When Designing a New Website</title>
+		<link>https://www.dezvolta.com/blog/5-things-to-avoid-when-designing-a-new-website/</link>
+				<comments>https://www.dezvolta.com/blog/5-things-to-avoid-when-designing-a-new-website/#respond</comments>
+				<pubDate>Fri, 14 Dec 2018 09:43:35 +0000</pubDate>
+		<dc:creator><![CDATA[Ananda Kannan S P]]></dc:creator>
+				<category><![CDATA[Web Design]]></category>
+
+		<guid isPermaLink="false">https://www.dezvolta.com/?p=60</guid>
+				<description><![CDATA[When a visitor lands on your website, there are so many things that they immediately take into account. Analytics confirm that you have less than a second to convert a visitor into a customer. Everything right from your design, font, color choices, content to usability will influence a person’s decision to stay on your page.]]></description>
+								<content:encoded><![CDATA[
+<blockquote class="wp-block-quote"><p>Web design plays an influential role in customer conversion rate and when some of these mistakes are made, they could inversely affect your brand’s reach and growth. This is what should be avoided when designing or revamping your website.</p><cite>&#8211; Dezvolta Team</cite></blockquote>
+
+
+
+<div class="useful-list-items">
+<div>
+<h2>1. Old School Web Layouts Don’t Work</h2>
+<p>Being ready to adopt change is important and customers get instantly turned off when they see a website that looks so nostalgic. Not in a good way because any design element or template could be considered retro in a matter of months or years in this fast-changing world. If you haven’t redesigned your existing website in the past 3-5 years, you are missing out on a large portion of your potential customers and it’s time to approach a reputed website design company.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>2. Inconsistent, Random Design Elements Thrown In</h2>
+<p>A seamless visual express is a key to attracting your visitors and converting them. The website’s layout, if it begins with bright, light colors and bold fonts, it should continue all over. Switching to a black and white tone or simply introducing too many images instead of content scream inconsistency. It forces users to feel alienated and abandon the page. Avoid it by keeping your web design consistent throughout the pages and offer a smooth wave-like experience for your visitors.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>3. Never Use Too Many Fonts on the Same Page</h2>
+<p>Another common mistake that is sometimes triggered by sheer creativity is using too many fonts on the same page. Just imagine an amateurishly designed web page where you have used fonts like Georgia, Futura, and Helvetica to make an announcement, any average human will find it very difficult to understand the flow and the message inside it. A good design aesthetic is to go with a major font for the website combined with a secondary font. They should be web-friendly, look professional and set the tone for your business.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>4. Infusing Many Colors at Once</h2>
+<p>A strict no! Much similar to how using multiple fonts in a single page would affect the user’s capability to read and understand the content, too many shades of colors would make any new user find it tough to cope up with the layout. You can choose a color that is slightly similar to the shades used in your logo or go with completely contrasting colors than your logo to differentiate them on the website. Pick colors that pair with one another and maintain them throughout the website.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>5. Inconsistent Spacing</h2>
+<p>Follow the guidelines of design principle proximity when creating boxes, icons and placing headers. The content area and images should merge with one another with the right amount of spacing. If they are too tight, they look cramped and your customer conversion rate will get affected as they may choose to close the website. Similarly, large spaces could create emptiness on the website’s layout making it harder to follow what’s your primary objective is.</p>
+</div>
+<p>&nbsp;</p>
+<p>These are some of many mistakes which when committed in website design could hurt your customer conversion rate. By fixing them all and working with a <a href="https://www.dezvolta.com/web-design-services/">professional web design company</a> like <a href="https://www.dezvolta.com/">Dezvolta</a>, you can get the best services possible while giving your business the boost it needs with attractive web design solutions.</p>
+
+		</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.dezvolta.com/blog/5-things-to-avoid-when-designing-a-new-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>10 Must Have Elements In Your New Website</title>
+		<link>https://www.dezvolta.com/blog/10-must-have-elements-in-your-new-website/</link>
+				<comments>https://www.dezvolta.com/blog/10-must-have-elements-in-your-new-website/#respond</comments>
+				<pubDate>Fri, 14 Dec 2018 09:42:41 +0000</pubDate>
+		<dc:creator><![CDATA[Ananda Kannan S P]]></dc:creator>
+				<category><![CDATA[Web Design]]></category>
+
+		<guid isPermaLink="false">https://www.dezvolta.com/?p=57</guid>
+				<description><![CDATA[Every designer will have a visionary idea, an entrepreneur would imagine their brand in a unique way while a content writer will play with words to entice your customers.]]></description>
+								<content:encoded><![CDATA[
+<div class="useful-list-items">
+<blockquote><p>
+The website that you are building right now is a conglomeration of every creative idea, every individual person in your team and at the end of the day, the big goal is to impress your audience somehow.
+</p></blockquote>
+<p>That’s when these 10 highly important elements come into the picture because whether you love it or not, your new website should have them all so that it is easier for a new visitor to navigate and understand the product being offered. These are ground rules to build a site and are followed globally as a minimal standard for web design.</p>
+<p>&nbsp;</p>
+<div>
+<h2>1. Navigation – Keep it Simple</h2>
+<p>Most people miss the fact that a new visitor feels alienated in a website if the navigation isn’t simple and easy to understand. Keep it simple, the navigational menus should be readily accessible and make sure they are not too many in number. You can go with a three or five-button navigation bar on top but keep it in the same location even when the bottom area of the website would keep changing.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>2. Responsive Theme – Works Seamlessly on Any Device</h2>
+<p>Choosing a great-looking theme is important but picking a responsive theme is mandatory. Users no longer browse websites on a desktop but they use smartphones and tablets. Keeping it more accessible, seamless and maintaining the design elements will ensure better conversion rates.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>3. An About Us Column – Introduce Yourself</h2>
+<p>Personalization is everything! With hundreds of websites online, it’s integral to help your audience connect with your brand. An About Us column will help introduce yourself, share your views, dreams and what’s your ultimate goal. Keep the description simple, to the point and more personalized. It should do the trick!</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>4. Call to Action – Trigger More Signups</h2>
+<p>A website is the key to getting your potential customers onboard. The right web design can play magic in your visitor’s minds. Use flashy bright colors, try a unique font or use boxes, scroll animation to let them know it’s the place to sign up. Using a signup form is another way of converting visitors into customers. This is one of the important elements that you just can’t miss on your website.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>5. Frequently Asked Questions – Answer Them Diligently</h2>
+<p>The Frequently Asked Questions section, FAQs is there for a reason. Your visitor may have lots of unanswered questions, things they like to know before using your website. Be it a service provider, an e-commerce or a company website, all the basic questions should be answered diligently to gain that vote of confidence before they proceed to do business with you.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>6. Create a Contact Page – Just the Basics</h2>
+<p>When people feel that you really have a presence and have an office established, it boosts the credibility factor. The contact page should provide the office address, different locations where your brand is located, vendors and locations marked on Google map.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>7. Try Personalized Photoshoots – Stock Photos are Fine</h2>
+<p>Photographs are required to represent a product, community or the services you offer. Most websites use cheesy stock photos which you can avoid by hosting your own personalized photoshoots, if your budget permits. An alternative would be to use custom-made logos, icons and illustrations to convey the idea.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>8. Offer Informative Content – Build Credibility</h2>
+<p>Give your visitors something that they might not immediately get from your competitors or any other site for that matter. Create white papers, eBooks or useful, informative guide on your primary area of expertise. It should help you acquire contact information like e-mail while building a credible brand name among your target audience.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>9. Stylish Buttons – Catchy Ones Work</h2>
+<p>Whenever you use a button on your website, it should be easy to understand and immediately catch one’s attention. Make use of its prominence by using call to action words. Ask your users to sign up, download the software or offer free stuff through these catchy buttons that help grab their attention.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>10. Bullet Points – Easy to Read</h2>
+<p>Bullet points are must-have elements on your new website because they help describe features, product highlights and are easy to read compared to long paragraphs. Design them in such a way that they instantly convey the message.</p>
+</div>
+<p>&nbsp;</p>
+<p>By striking a fine balance when using the right fonts, spacing, photos, responsive design, stylish buttons and other important web design elements in your website, you are on your way to build a strong patronage among visitors and effectively give your brand the winning edge against your competitors.</p>
+
+		</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.dezvolta.com/blog/10-must-have-elements-in-your-new-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>How To Choose A Web Design Company?</title>
+		<link>https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/</link>
+				<comments>https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/#respond</comments>
+				<pubDate>Fri, 14 Dec 2018 09:41:43 +0000</pubDate>
+		<dc:creator><![CDATA[Ananda Kannan S P]]></dc:creator>
+				<category><![CDATA[Web Design]]></category>
+
+		<guid isPermaLink="false">https://www.dezvolta.com/?p=54</guid>
+				<description><![CDATA[Every time a new visitor lands on your homepage, the first thing that they see is your web design, the type of typography used, product banners and the overall presentation. When everything combined together provides a positive vibe, you are sure to witness some impressive conversion rates like never before.]]></description>
+								<content:encoded><![CDATA[
+<div class="useful-list-items">
+			<p>The entire world now has a digital persona where it’s difficult than ever to impress a visitor. Choosing the <a href="https://www.dezvolta.com" class="implink">best web design company</a> is the first big step you take towards establishing successful digital marketing strategies.</p>
+<p>&nbsp;</p>
+<h2 style="font-family:Unlock; margin-bottom:20px;">Follow this 7 step guide to choose the best web design company:</h2>
+<div>
+<h2>1. Always Go for a Passionate team</h2>
+<p>With the competition level going sky high, it’s integral to have an extremely passionate and creative team working on your projects. They should be able to think out of the box, understand new web design 2.0 concepts easily and come up with ideas that would impress any visitor from different parts of the world.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>2. Check Out If They Have an Impressive Track Record</h2>
+<p>Finding the website design agency is made easy by going through the number of successful projects they have completed so far. While some companies invest a lot, it’s wise if you shortlist the best within your budget range. Look for the company’s websites, their design, how well they help convert visitors into customers and the unique ideas the team implemented in each new project.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>3. Get Your Team to Give You Valuable Comments</h2>
+<p>Instead of making a sole decision, you can even consider bringing your team onboard and asking them feedback on websites created by a professional web design company. If a group of members are extremely satisfied with some of the designs, they are definitely good at what they do and it should be wise to hire them.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>4. Explore How They Merge Design with Content</h2>
+<p>An impressive design combined with ease of usability and access is definitely the key to good web design but at the same time, the content should seamlessly merge with it. Talk to the design team to know what they think about content and how they can help implement it in a non-intrusive manner. They should have a clear idea that creative art is important but so is content! A website’s success is based on balancing and not simply focusing on art. Your company should know it.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>5. Responsive Design, CMS, SEO – Your Web Design Company Should Know It All</h2>
+<p>Being a design-friendly place, the <a href="https://www.dezvolta.com" class="implink">web design company</a> you choose should also have ample knowledge in all technical aspects including content management system, search engine optimisation and should be able to create a responsive design. Creating a website that works and looks the same on all devices is a necessity for seamless visitor experience while prompt <a href="https://www.dezvolta.com/seo-services/" class="implink">SEO</a> and CMS integration is required for the site to operate efficiently.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>6. Go For One With Vast Industry Experience</h2>
+<p>Each industry is different from one another because fashion, retail, e-commerce and IT services are not the same. The <a href="https://www.dezvolta.com" class="implink">website designers</a> can deliver a better output if they have worked with multiple industries and come with unique ideas that could easily cater to a wide range of audience.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>7. Designers Should Know Active Design Trends</h2>
+<p>Designers should be technically aware of how conversion works because not every good-looking website will perform. An intuitive design allowing users to move from one page to another is necessary to ensure conversion.</p>
+<p>Similarly, designers should be in touch with active web design trends to adopt them quickly before others do and give your business the winning edge. If they can establish a great balance between implementing new designs and creating an intuitive site that’s easy to navigate, they are the best. The web designing team should know things like parallax scrolling, flat or material design, choice of modern colors and be aware what big brands are adopting now.</p>
+</div>
+<p>&nbsp;</p>
+<p>Dezvolta excels in every area and has built a strong customer base through the years, with many successful web design products. We can give your business the winning edge it needs with great design, intuitive UI and responsive websites that perform well on every channel.</p>
+<p><a href="https://www.dezvolta.com" class="implink">Looking for the best web design company in Singapore</a> to design and develop your website? <a href="https://www.dezvolta.com/contact/" class="implink">Get in touch</a>.</p>
+
+		</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Top 10 Web Design Trends for 2019</title>
+		<link>https://www.dezvolta.com/blog/top-web-design-trends/</link>
+				<comments>https://www.dezvolta.com/blog/top-web-design-trends/#respond</comments>
+				<pubDate>Fri, 14 Dec 2018 09:40:47 +0000</pubDate>
+		<dc:creator><![CDATA[Ananda Kannan S P]]></dc:creator>
+				<category><![CDATA[Web Design]]></category>
+
+		<guid isPermaLink="false">https://www.dezvolta.com/?p=51</guid>
+				<description><![CDATA[You can be a designer, an entrepreneur or a marketer – whatever your line of work is, this handy guide to 10 stunning web design trends to expect in 2019 will help you understand what to adapt to stay abreast in the market. Stay creative and by adopting some of these trends, it’s easier to come up with stunning web designs that leave a long-lasting impression on your audience.]]></description>
+								<content:encoded><![CDATA[
+<p>Creativity abounds in the world of <a href="https://www.dezvolta.com/web-design-services/" style="
+    border-bottom: 1px solid;
+">web design</a> where evolution is constant. The designers are expected to be agile, willing to adopt change because in a highly competitive world, understanding the design language is integral to captivate the audience.</p>
+<p>&nbsp;</p>
+<h2 style="font-family:Unlock; margin-bottom:20px;">Here is the Top Web Design Trends for 2019:</h2>
+<div class="useful-list-items">
+<div>
+<h2>1. Gif Backgrounds – The Art of Using Moving Images</h2>
+<p>A widely used design trend in 2019, gif backgrounds consist of a quick, endless video loop that has the capacity to instantly captivate the visitor’s attention. With millions of interesting and fun gifs available online these days, the web page could get a touch of finesse and get out of the conventional, boring layout that’s usually static.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>2. Linear Gradients – Apple Does it, So Can You!</h2>
+<p>Saturated gradients were made popular by Apple in their official logo, iTunes and some of their promotional materials. With the right font and content, the vibrant colors are capable of grabbing attention instantaneously while being modern. After all, these originally originate from the retro 70s arcade era but with some tweaks can look as modern as it could get.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>3. Imagery – A Picture Speaks a Thousand Words</h2>
+<p>Long gone are the days when websites used to be stuffed with words in every corner. A picture speaks better than a paragraph which is why <a href="https://www.dezvolta.com" class="implink">web designers</a> are using large, descriptive images to get their marketing message across. They also help capture audience’s attention quickly and retain it.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>4. Multiple Colors Layered Together – Fashionista!!!</h2>
+<p>Fashion websites and the related industry could do a lot by using multiple colored layers stacked up against one another. The design tends to convey lots of information at once and also makes it easy to differentiate between one website’s column from another. They may look more glossy but is a useful style for the right industry.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>5. Horizontal, Vertical – Brain Tease Your Audience</h2>
+<p>What better way to brain tease your audience than using vertical and horizontal text messages? Inspired by the world of graffiti and street art, this trend is now slowly creeping into web design and just looks awesome when paired up with an appropriate image. Get your message across immediately by simply altering the position of the text.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>6. Overlapping – The Magazine Model</h2>
+<p>Overlapping text over an image is something magazines have been doing for decades now but it’s a fairly new trend in web design 2019. A simple text, an artful image and captions could go well with one another. Using bold or italics is purely a personal choice as overlapping works perfectly fine with every style.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>7. Hand Drawn Graffiti Fonts – Get the Message Across</h2>
+<p>Any website, like hosting an event, a party, announcing a big new show or being a rebel is best described with hand-drawn fonts. A wide range of hand-drawn graffiti styled fonts can be spotted online including those that are professional, wacky, child-like and much more styles to choose from.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>8. Circles, Colors and Materialism</h2>
+<p>Microsoft made flat colors stylish again and Google’s Oreo made it popular. Now, designers can experiment with circles, flat colors and small fonts which can create the desired effect on your audience. While it’s primarily used in the world of technology, it could seamlessly blend with architecture, educational, food or any other commercial industry that wants to deliver a non-intrusive marketing message.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>9. Unconventional Typography – Experiment with Text</h2>
+<p>Typography has always been a powerful tool for designers to make use of but with every font being redone so many times, it’s time to reinvent. A great example is using fonts over an image, overlapping with other text or placing them randomly in different places.</p>
+</div>
+<p>&nbsp;</p>
+<div>
+<h2>10. Playing with Shadows to Create Depth</h2>
+<p>A less popular yet highly attractive way to showcase your products for an e-commerce website or any business site, shadows come in handy. They create a 3D version of the image, providing depth and make the design protrude out of the website. Definitely, a web design trend in 2019 that will flourish eventually.</p>
+</div>
+<p>&nbsp;</p>
+<p>Being a leading <a href="https://www.dezvolta.com/" class="implink">web design company in Singapore</a>, Dezvolta is always at the forefront of technology and creativity. Adopting the 10 stunning web design trends to expect in 2019 is just the beginning as we always crave for more and to do better to delight our customers who want to stand out from their competitors.</p>
+
+		</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.dezvolta.com/blog/top-web-design-trends/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

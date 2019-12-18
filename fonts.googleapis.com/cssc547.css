@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Rakkas';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rakkas Regular'), local('Rakkas-Regular'), url(https://fonts.gstatic.com/s/rakkas/v7/Qw3cZQlNHiblL3jPkdFL.ttf) format('truetype');
+}

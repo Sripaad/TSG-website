@@ -1,0 +1,209 @@
+HTTrack3.49-2 launched on Wed, 18 Dec 2019 11:22:42 at https://www.dezvolta.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.dezvolta.com/ -O "/home/sripaad/Desktop/Projects/sitegurus" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:22:44	Warning: 	Note: due to https://www.dezvolta.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/, /tamilcinema/, /projects/, /project/, /tinyteddies/, /sfgind/, /testing/, /author/ (see in the options to disable this)
+11:23:30	Error: 	"Not Found" (404) at link https://fonts.googleapis.com/ (from https://www.dezvolta.com/)
+11:23:31	Error: 	"Not Found" (404) at link https://tsg.b-cdn.net/ (from https://www.dezvolta.com/)
+11:23:32	Warning: 	Note: due to s.w.org remote robots.txt rules, links beginning with these path will be forbidden: /search, /support/rss, /archive/, /?filters (see in the options to disable this)
+11:23:32	Warning: 	Moved Permanently for s.w.org/
+11:23:32	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=134
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/?p=134 to https://www.dezvolta.com/discounts/
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=207
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/?p=207 to https://www.dezvolta.com/responsive-website-design-company/
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/seo-experts/
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/seo-experts/ to https://www.dezvolta.com/seo-services/seo-company-in-Singapore//
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=49
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/?p=49 to https://www.dezvolta.com/ecommerce-website-development/
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=30
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/?p=30 to https://www.dezvolta.com/seo-services/
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=16
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/?p=16 to https://www.dezvolta.com/branding-services/
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=82
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/?p=82 to https://www.dezvolta.com/works/
+11:26:54	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=103
+11:26:54	Warning: 	File has moved from https://www.dezvolta.com/?p=103 to https://www.dezvolta.com/agency/
+11:27:45	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=19
+11:27:45	Warning: 	File has moved from https://www.dezvolta.com/?p=19 to https://www.dezvolta.com/contact/
+11:27:45	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=21
+11:27:45	Warning: 	File has moved from https://www.dezvolta.com/?p=21 to https://www.dezvolta.com/web-design-services/
+11:27:45	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=27
+11:27:45	Warning: 	File has moved from https://www.dezvolta.com/?p=27 to https://www.dezvolta.com/digital-marketing-services/
+11:28:05	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=54
+11:28:05	Warning: 	File has moved from https://www.dezvolta.com/?p=54 to https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/
+11:28:05	Error: 	"Method Not Allowed" (405) at link https://www.dezvolta.com/xmlrpc.php (from https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/)
+11:28:06	Warning: 	Note: due to https://secure.gravatar.com remote robots.txt rules, links beginning with these path will be forbidden: /*.json, /*.xml, /*.php, /*.vcf, /*.qr, /accounts/activate/*, /accounts/force-by-email/*, /account/ (see in the options to disable this)
+11:28:06	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=51
+11:28:06	Warning: 	File has moved from https://www.dezvolta.com/?p=51 to https://www.dezvolta.com/blog/top-web-design-trends/
+11:28:06	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=559
+11:28:06	Warning: 	File has moved from https://www.dezvolta.com/?p=559 to https://www.dezvolta.com/google-review-direct-link-generator/
+11:28:06	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=738
+11:28:06	Warning: 	File has moved from https://www.dezvolta.com/?p=738 to https://www.dezvolta.com/seo-services/seo-company-in-Singapore/
+11:28:06	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=96
+11:28:06	Warning: 	File has moved from https://www.dezvolta.com/?p=96 to https://www.dezvolta.com/testimonials/
+11:28:07	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=897
+11:28:07	Warning: 	File has moved from https://www.dezvolta.com/?p=897 to https://www.dezvolta.com/blog/ecommerce-marketing-strategies-to-generate-sales/
+11:28:07	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=678
+11:28:07	Warning: 	File has moved from https://www.dezvolta.com/?p=678 to https://www.dezvolta.com/blog/trendy-google-font-combinations/
+11:28:07	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=314
+11:28:07	Warning: 	File has moved from https://www.dezvolta.com/?p=314 to https://www.dezvolta.com/blog/speed-up-wordpress/
+11:28:07	Warning: 	Moved Permanently for https://www.dezvolta.com/how-to-choose-a-web-design-company/
+11:28:07	Warning: 	File has moved from https://www.dezvolta.com/how-to-choose-a-web-design-company/ to https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/
+11:28:07	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=89
+11:28:07	Warning: 	File has moved from https://www.dezvolta.com/?p=89 to https://www.dezvolta.com/blog/content-marketing-techniques/
+11:28:09	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=86
+11:28:09	Warning: 	File has moved from https://www.dezvolta.com/?p=86 to https://www.dezvolta.com/blog/how-to-choose-a-domain-name/
+11:28:10	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=60
+11:28:10	Warning: 	File has moved from https://www.dezvolta.com/?p=60 to https://www.dezvolta.com/blog/5-things-to-avoid-when-designing-a-new-website/
+11:28:10	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=57
+11:28:10	Warning: 	File has moved from https://www.dezvolta.com/?p=57 to https://www.dezvolta.com/blog/10-must-have-elements-in-your-new-website/
+11:28:11	Warning: 	Found for cdn.ampproject.org/robots.txt
+11:28:11	Warning: 	Redirected link is identical because of 'URL Hack' option: cdn.ampproject.org/robots.txt and https://cdn.ampproject.org/robots.txt
+11:28:11	Warning: 	Warning moved treated for cdn.ampproject.org/robots.txt (real one is https://cdn.ampproject.org/robots.txt)
+11:28:11	Warning: 	Found for cdn.ampproject.org/
+11:28:11	Warning: 	Redirected link is identical because of 'URL Hack' option: cdn.ampproject.org/ and https://cdn.ampproject.org/
+11:28:11	Warning: 	File has moved from cdn.ampproject.org/ to https://cdn.ampproject.org/
+11:28:22	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=108
+11:28:22	Warning: 	File has moved from https://www.dezvolta.com/?p=108 to https://www.dezvolta.com/careers/
+11:28:45	Warning: 	HTML file (68210 bytes) retransferred due to lack of cache: https://www.dezvolta.com/feed/
+11:28:45	Warning: 	HTML file (743 bytes) retransferred due to lack of cache: https://www.dezvolta.com/comments/feed/
+11:28:45	Warning: 	HTML file (77329 bytes) retransferred due to lack of cache: https://www.dezvolta.com/wp-json/
+11:28:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/xmlrpc.php?rsd
+11:28:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2F
+11:28:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2F&format=xml
+11:28:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://tsg.b-cdn.net/owl.carousel.js
+11:28:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://tsg.b-cdn.net/demo-2.js
+11:29:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fresponsive-website-design-company%2F
+11:29:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fdiscounts%2F&format=xml
+11:29:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fdiscounts%2F
+11:29:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fecommerce-website-development%2F
+11:29:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fresponsive-website-design-company%2F&format=xml
+11:29:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fecommerce-website-development%2F&format=xml
+11:29:07	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 8874): https://tsg.b-cdn.net/dig-bg.jpg
+11:29:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fseo-services%2F
+11:29:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fseo-services%2F&format=xml
+11:29:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fbranding-services%2F
+11:29:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fbranding-services%2F&format=xml
+11:29:11	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 3614): https://tsg.b-cdn.net/contact-icon.png
+11:29:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fworks%2F
+11:29:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fworks%2F&format=xml
+11:29:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fagency%2F
+11:29:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fagency%2F&format=xml
+11:29:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fcontact%2F&format=xml
+11:29:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fcontact%2F
+11:29:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fweb-design-services%2F&format=xml
+11:29:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fweb-design-services%2F
+11:29:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fdigital-marketing-services%2F&format=xml
+11:29:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fdigital-marketing-services%2F
+11:29:18	Warning: 	HTML file (854 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/feed/
+11:29:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fhow-to-choose-a-web-design-company%2F
+11:29:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fhow-to-choose-a-web-design-company%2F&format=xml
+11:29:20	Warning: 	HTML file (826 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/top-web-design-trends/feed/
+11:29:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Ftop-web-design-trends%2F&format=xml
+11:29:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Ftop-web-design-trends%2F
+11:29:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fgoogle-review-direct-link-generator%2F&format=xml
+11:29:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fgoogle-review-direct-link-generator%2F
+11:29:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://platform-api.sharethis.com/js/sharethis.js
+11:29:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fseo-services%2Fseo-company-in-Singapore%2F&format=xml
+11:29:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fseo-services%2Fseo-company-in-Singapore%2F
+11:29:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Ftestimonials%2F
+11:29:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Ftestimonials%2F&format=xml
+11:29:30	Warning: 	HTML file (897 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/ecommerce-marketing-strategies-to-generate-sales/feed/
+11:29:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fecommerce-marketing-strategies-to-generate-sales%2F
+11:29:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fecommerce-marketing-strategies-to-generate-sales%2F&format=xml
+11:29:35	Warning: 	HTML file (846 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/trendy-google-font-combinations/feed/
+11:29:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Ftrendy-google-font-combinations%2F
+11:29:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Ftrendy-google-font-combinations%2F&format=xml
+11:29:40	Warning: 	HTML file (835 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/speed-up-wordpress/feed/
+11:29:41	Warning: 	HTML file (835 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/content-marketing-techniques/feed/
+11:29:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fspeed-up-wordpress%2F&format=xml
+11:29:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fspeed-up-wordpress%2F
+11:29:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fcontent-marketing-techniques%2F&format=xml
+11:29:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fcontent-marketing-techniques%2F
+11:29:43	Warning: 	HTML file (833 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/how-to-choose-a-domain-name/feed/
+11:29:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fhow-to-choose-a-domain-name%2F&format=xml
+11:29:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2Fhow-to-choose-a-domain-name%2F
+11:29:46	Warning: 	HTML file (889 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/5-things-to-avoid-when-designing-a-new-website/feed/
+11:29:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2F5-things-to-avoid-when-designing-a-new-website%2F
+11:29:47	Warning: 	HTML file (874 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/10-must-have-elements-in-your-new-website/feed/
+11:29:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2F5-things-to-avoid-when-designing-a-new-website%2F&format=xml
+11:29:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2F10-must-have-elements-in-your-new-website%2F
+11:29:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fblog%2F10-must-have-elements-in-your-new-website%2F&format=xml
+11:29:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fcareers%2F
+11:29:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.dezvolta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dezvolta.com%2Fcareers%2F&format=xml
+11:29:54	Warning: 	HTML file (32371 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/category/web-design/feed/
+11:29:54	Warning: 	HTML file (18152 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/category/e-commerce/feed/
+11:29:55	Warning: 	HTML file (7053 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/category/trends/feed/
+11:29:55	Warning: 	HTML file (7006 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/category/digital-marketing/feed/
+11:29:55	Warning: 	HTML file (7284 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/category/seo/feed/
+11:29:57	Warning: 	HTML file (7281 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/tag/2018/feed/
+11:29:57	Warning: 	HTML file (7287 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/tag/banding/feed/
+11:29:57	Warning: 	HTML file (7285 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/tag/domain/feed/
+11:29:57	Warning: 	HTML file (7285 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/tag/naming/feed/
+11:29:58	Warning: 	HTML file (7287 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/tag/startup/feed/
+11:29:58	Warning: 	HTML file (7285 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/tag/trends/feed/
+11:30:03	Warning: 	HTML file (57861 bytes) retransferred due to lack of cache: https://www.dezvolta.com/discounts/
+11:30:05	Warning: 	HTML file (769 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=134
+11:30:06	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=134
+11:30:06	Warning: 	File has moved from https://www.dezvolta.com/?p=134 to https://www.dezvolta.com/discounts/
+11:30:06	Warning: 	HTML file (759 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=82
+11:30:08	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=82
+11:30:08	Warning: 	File has moved from https://www.dezvolta.com/?p=82 to https://www.dezvolta.com/works/
+11:30:08	Warning: 	HTML file (763 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=103
+11:30:09	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=103
+11:30:09	Warning: 	File has moved from https://www.dezvolta.com/?p=103 to https://www.dezvolta.com/agency/
+11:30:09	Warning: 	HTML file (70108 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/trendy-google-font-combinations/
+11:30:12	Warning: 	HTML file (801 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=27
+11:30:13	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=27
+11:30:13	Warning: 	File has moved from https://www.dezvolta.com/?p=27 to https://www.dezvolta.com/digital-marketing-services/
+11:30:13	Warning: 	HTML file (827 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=54
+11:30:14	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=54
+11:30:14	Warning: 	File has moved from https://www.dezvolta.com/?p=54 to https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/
+11:30:15	Error: 	"Method Not Allowed" (405) at link https://www.dezvolta.com/xmlrpc.php (from https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/)
+11:30:15	Warning: 	HTML file (65063 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/top-web-design-trends/amp/
+11:30:16	Warning: 	HTML file (801 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=51
+11:30:17	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=51
+11:30:17	Warning: 	File has moved from https://www.dezvolta.com/?p=51 to https://www.dezvolta.com/blog/top-web-design-trends/
+11:30:17	Warning: 	HTML file (857 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=897
+11:30:18	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=897
+11:30:18	Warning: 	File has moved from https://www.dezvolta.com/?p=897 to https://www.dezvolta.com/blog/ecommerce-marketing-strategies-to-generate-sales/
+11:30:18	Warning: 	HTML file (65951 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/trendy-google-font-combinations/amp/
+11:30:19	Warning: 	HTML file (823 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=678
+11:30:20	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=678
+11:30:20	Warning: 	File has moved from https://www.dezvolta.com/?p=678 to https://www.dezvolta.com/blog/trendy-google-font-combinations/
+11:30:20	Warning: 	HTML file (67931 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/speed-up-wordpress/amp/
+11:30:21	Warning: 	HTML file (797 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=314
+11:30:22	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=314
+11:30:22	Warning: 	File has moved from https://www.dezvolta.com/?p=314 to https://www.dezvolta.com/blog/speed-up-wordpress/
+11:30:22	Warning: 	HTML file (815 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=89
+11:30:23	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=89
+11:30:23	Warning: 	File has moved from https://www.dezvolta.com/?p=89 to https://www.dezvolta.com/blog/content-marketing-techniques/
+11:30:24	Warning: 	HTML file (65736 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/how-to-choose-a-domain-name/amp/
+11:30:25	Warning: 	HTML file (813 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=86
+11:30:26	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=86
+11:30:26	Warning: 	File has moved from https://www.dezvolta.com/?p=86 to https://www.dezvolta.com/blog/how-to-choose-a-domain-name/
+11:30:26	Warning: 	HTML file (64683 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/5-things-to-avoid-when-designing-a-new-website/amp/
+11:30:27	Warning: 	HTML file (851 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=60
+11:30:28	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=60
+11:30:28	Warning: 	File has moved from https://www.dezvolta.com/?p=60 to https://www.dezvolta.com/blog/5-things-to-avoid-when-designing-a-new-website/
+11:30:28	Warning: 	HTML file (65375 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/10-must-have-elements-in-your-new-website/amp/
+11:30:29	Warning: 	HTML file (841 bytes) retransferred due to lack of cache: https://www.dezvolta.com/?p=57
+11:30:30	Warning: 	Moved Permanently for https://www.dezvolta.com/?p=57
+11:30:30	Warning: 	File has moved from https://www.dezvolta.com/?p=57 to https://www.dezvolta.com/blog/10-must-have-elements-in-your-new-website/
+11:30:30	Warning: 	HTML file (741 bytes) retransferred due to lack of cache: cdn.ampproject.org/
+11:30:31	Warning: 	Found for cdn.ampproject.org/
+11:30:31	Warning: 	Redirected link is identical because of 'URL Hack' option: cdn.ampproject.org/ and https://cdn.ampproject.org/
+11:30:31	Warning: 	File has moved from cdn.ampproject.org/ to https://cdn.ampproject.org/
+11:30:32	Error: 	"Not Found" (404) at link https://www.dezvolta.com/wp-content/plugins/accelerated-mobile-pages/templates/design-manager/swift/fonts/icomoon.ttf (from https://www.dezvolta.com/blog/how-to-choose-a-web-design-company/amp/)
+11:30:32	Warning: 	HTML file (62295 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/category/web-design/
+11:30:33	Warning: 	HTML file (59053 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/2019/12/
+11:30:34	Warning: 	HTML file (33443 bytes) retransferred due to lack of cache: https://www.dezvolta.com/blog/2019/12/amp/
+11:30:37	Error: 	"Not Found" (404) at link https://tsg.b-cdn.net/owl.video.play.png (from https://tsg.b-cdn.net/dezvolta1c.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 55 seconds : 485 links scanned, 567 files written (35912011 bytes overall) [31087529 bytes received at 65447 bytes/sec], 795001 bytes transferred using HTTP compression in 24 files, ratio 28%, 2.4 requests per connection
+(6 errors, 192 warnings, 0 messages)
