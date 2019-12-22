@@ -1044,9 +1044,9 @@ footer {
       <div class="row equal-cols">
         <div class="col-md-2 col-sm-2 col-xs-2 logo ver-cen">
 			
-		 <a class="nlogo" href="https://www.thesitegurus.com"><img src="https://www.thesitegurus.com/img/TSG-logo.svg" alt="Dezvolta - Web Design Company in Singapore"></a>
+		 <a class="nlogo" href="https://www.thesitegurus.com"><img src="https://www.thesitegurus.com/img/TSG-logo.png" alt="Dezvolta - Web Design Company in Singapore"></a>
 		  
-		 <a class="plogo" href="https://www.thesitegurus.com"><img src="https://www.thesitegurus.com/img/TSG-logo.svg" alt="Dezvolta - Web Design Company in Singapore"></a>	
+		 <a class="plogo" href="https://www.thesitegurus.com"><img src="https://www.thesitegurus.com/img/TSG-logo.png" alt="Dezvolta - Web Design Company in Singapore"></a>	
 		  </div>
         <div class="col-md-10 col-sm-10 col-xs-10 ver-cen">
 		 <div class="nav-menu" id="navigate">
@@ -1208,8 +1208,8 @@ footer {
 	</ul>
 	  </div> 
 <div style="z-index:99999" class="logobg ">			 	
-         <a class="mlogo" href="https://www.thesitegurus.com"><img class="mobilelogo" src="https://www.thesitegurus.com/img/TSG-logo.svg" alt="Dezvolta Logo"/></a>
-         <a class="mplogo" href="https://www.thesitegurus.com"><img class="mobilelogo" src="https://www.thesitegurus.com/img/TSG-logo.svg" alt="Dezvolta Logo"/></a>
+         <a class="mlogo" href="https://www.thesitegurus.com"><img class="mobilelogo" src="https://www.thesitegurus.com/img/TSG-logo.png" alt="Dezvolta Logo"/></a>
+         <a class="mplogo" href="https://www.thesitegurus.com"><img class="mobilelogo" src="https://www.thesitegurus.com/img/TSG-logo.png" alt="Dezvolta Logo"/></a>
 	
 <div id="nav-icon4">
   <span></span>
