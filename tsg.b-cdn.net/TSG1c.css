@@ -10,6 +10,8 @@ color:white;
 overflow-x:hidden;
 max-width:100%;
 font-weight:300;
+position: relative;
+z-index: 2;
 }
 
 
@@ -43,11 +45,11 @@ height:auto;}
 display:none;}}
 
 #main-header{
-background:transparent;	
-padding: 15px 0px;
-position:absolute;
-z-index:9999;
-width:100%;}
+overflow: hidden;
+position:fixed;
+z-index: 1;
+width:100%;
+background: transparent;}
 
 .fixed-header{
 background:#142b6d !important;			
@@ -63,7 +65,8 @@ max-width:100%;}
 /** logo image **/
 
 .logo img{
-	width:180px;
+    max-width: 100%;
+    height: auto !important;
 }
 
 /** Menu items **/
@@ -1155,6 +1158,13 @@ background-position-x: -86px;
 background-position-y: -41px;    
 margin-bottom: 20px;}
 
+.merlion{
+    width: 75px;
+    height: 75px;
+    background-image: url(merlion.png) !important; 
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
 .di{
 width: 75px;	
 height: 75px;

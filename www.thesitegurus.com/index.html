@@ -994,7 +994,7 @@ margin-left:0px;
 .rwsecn9bc2{
 border-radius:30px;
 }
-.rwsecn9bzi{
+.rwsecn9bzi{ext animation
 display:none;
 }
 }
@@ -1015,8 +1015,7 @@ padding: 7px 3px;
 /**Dummy Page**/
 #dum1{
 background-color:#ff5a5b;
-padding:60px 0px 0px 0px;
-}
+ext animation
 @media(min-width:768px){
 .cofive{
 width:19.4%;
@@ -1030,7 +1029,7 @@ padding-top:80px;
 	width:100%;
 margin-top:5px;
 }
-.seoconta{
+.seoconta{ext animation
 	width:100%;
 max-height:100px;
 margin-top:6px;}
@@ -1046,6 +1045,7 @@ margin-top:6px;}
 margin-bottom:0px;
 font-weight:600;
 }
+
 @media (max-width: 767px){
 footer {
     padding: 10px 15px 80px 15px!important;}}
@@ -1054,7 +1054,7 @@ footer {
 </head>
 <body class="home page-template page-template-homepage page-template-homepage-php page page-id-13">
 <header>
-  <div id="main-header" data-aos="fade-down">
+  <div id="main-header">
     <div class="container">       
       <div class="row">
         
@@ -1169,23 +1169,13 @@ footer {
 </div>
 	<style>
 
-		
-		.discount{background: url(img/Xmax-banner-01.png);
-    background-size: contain;
-    background-position: center;
-    text-align: center;}
-		
-		.discount .blue{   
-		margin: 0px;
-		margin-left:10px;	
-    padding: 5px 10px;
-    font-size: 12px !important;
-    line-height: 1em;
-		}
-		
-		.discount a{color:white;font-size: 12px;
-    font-weight: 500;}
-		
+    #main-header{
+    overflow: hidden;
+    position:fixed;
+    z-index: 1;
+    width:100%;
+    background: transparent;}
+	
 		.fixed-header{top:0px;}
 @media(max-width:980px){
 .discount{
@@ -1498,6 +1488,8 @@ padding: 0px 0px 5px 33px;
 						const typewriter = new Typewriter('#best-webdesign', {
       loop: false,
     });
+    var i=10;
+    for(i=0;i<10;i++){
     typewriter.typeString('We are Premium<br><strong>Designers</strong>')
       .pauseFor(1500).deleteChars(9)
       .typeString('<strong>Developers<strong>')
@@ -1505,7 +1497,9 @@ padding: 0px 0px 5px 33px;
       .typeString('<strong>Application Developers<strong>')
       .pauseFor(1500).deleteChars(23)
       .typeString('<strong>Marketers<strong>')
-      .pauseFor(1500).start();	
+      .pauseFor(1500).deleteChars(24)
+      .pauseFor(15).start();
+      }	
 </script>
 	 <div><p class="acenter first-para hideonmobile"><b>South Asia’s fast growing Web solutions Expert delivering customer centric solutions, catered right out of the Asia’s Tech factories to businesses across the globe.</b></p>
 	 <div class="acenter" ><a href="contact/index.html"><button class="orange seofbut" style="margin: 10px 5px;"><span class="ctaicon"></span>Start with a Free Estimate</button></a></div>	 
@@ -1789,7 +1783,7 @@ transform: scale3d(1,1,1);
 	.a-in{
 	width: 36px;
     height: 36px;
-    background-image: url(img/dezlaticon2.png) !important;
+    background-image: url(img/tsglaticon2.png) !important;
     background-size: 396px auto;
     background-repeat: no-repeat;
     background-position-x: -243px;
@@ -1798,7 +1792,7 @@ transform: scale3d(1,1,1);
 		.a-in:hover{
 	width: 36px;
     height: 36px;
-    background-image: url(img/dezlaticon2.png) !important;
+    background-image: url(img/tsglaticon2.png) !important;
     background-size: 396px auto;
     background-repeat: no-repeat;
     background-position-x: -289px;
@@ -1832,9 +1826,9 @@ Discuss Your Project</h6>
     <label class="talk"><span class="wpcf7-form-control-wrap tel-561"><input type="tel" name="tel-561" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel detail" aria-required="true" aria-invalid="false" placeholder="Phone" /></span></label>
 	</div>
 <div class="one-half">
- <label class="talk"><select name="budget" class="wpcf7-form-control detail wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="">Budget</option><option value="<30k">&lt;30k</option><option value="30k to 60k">30k to 60k</option><option value="60k to 100k">60k to 100k</option><option value="100k &amp; Above">100k &amp; Above</option></select></label></div>
+ <label class="talk"><select name="budget" class="wpcf7-form-control detail wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="">Budget</option></select></label></div>
 <div class="two-half">
- <label class="talk"><select name="services" class="wpcf7-form-control detail wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="">Services</option><option value="Digital Strategy">Digital Strategy</option><option value="Web Design">Web Design</option><option value="SEO">SEO</option><option value="PPC">PPC</option><option value="SMM">SMM</option><option value="Branding">Branding</option></select></label>
+ <label class="talk"><select name="services" class="wpcf7-form-control detail wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="">Services</option><option value="Digital Marketing">Digital Marketing</option><option value="Web Design">Web Design</option><option value="SEO">SEO</option><option value="Mobile Application">Mobile Application</option><option value="Branding">Branding</option></select></label>
 	</div>
 <div class="one-half">
     <label class="talk"><span class="wpcf7-form-control-wrap text-586"><input type="text" name="text-586" value="" size="40" class="wpcf7-form-control wpcf7-text detail" aria-invalid="false" placeholder="Your website (If any)" /></span></label>
@@ -1908,7 +1902,7 @@ Discuss Your Project</h6>
 </div>
 <div class="col-sm-6 col-md-3 col-lg-3 fc" data-aos="fade-down" data-aos-duration="3000">
 <div class="foot-head">
-<h6 class="foot-head">Singapore</h6>
+<h6 class="foot-head">India</h6>
 <div class="di"></div>
 <p>"""Adyar Address"""</p>
 <p>Phone: <a href="tel:+918667785498">+91 8667785498</a></p>
@@ -1918,8 +1912,8 @@ Discuss Your Project</h6>
 <div class="col-sm-6 col-md-3 col-lg-3 fc" data-aos="fade-down" data-aos-duration="3000">
 <div class="foot-head">
 <h6>Singapore</h6>
-<div class="di"></div> 
-<p>"""Singapore Address"""</p>
+<div class="merlion"></div> 
+<p>VKS Groups, Serangoon Road, Singapore.</p>
 <p>Phone:<a href="tel:+65-91544097">+65-91544097</a></p>
 </div>
 </div>
