@@ -120,7 +120,7 @@ letter-spacing:1px;
 /** Menu items & dropdown hover **/
 
 /*.nav-menu a:hover, */ .dropdown:hover .dropbtn {
-    background-color: #ccc;
+    background-color: gainsboro;
     border-bottom: 0px solid #dd9933 !important;
     color: #000;
 }
@@ -148,7 +148,7 @@ background-image:url("menudown-blue.png");}
 .dropdown-content {
     display: none;
     position: fixed;
-    background-color: #ccc;
+    background-color:gainsboro;
     right: 0; 
     z-index: 9999;
 	padding:30px 10px;
@@ -229,7 +229,7 @@ background-position: -245px -116px;
     float: left;
     width: 100%;
     padding: 10px 20px;
-    background-color: #ccc;
+    background-color: gainsboro;
     height: 100%;
 }
 
@@ -262,7 +262,7 @@ cursor:pointer!important;
 }
 
 .col-pic:hover{
-background-color: #ccc;}
+background-color: gainsboro;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -1138,13 +1138,13 @@ background-position-y: -306px;
 .footword{
 font-size:30px;
 font-weight:700;
-color:#ccc;	
+color:gainsboro;	
 }	
 
 .rights{
 font-size:14px;
 font-weight:400;
-color:#ccc;	
+color:gainsboro;	
 }
 
 
@@ -1245,11 +1245,11 @@ color:green;
 margin-top: 15px;
 margin-left: 0px;}
 		
-.Reviews{color:#ccc;}
+.Reviews{color:gainsboro;}
 .Reviews p{
 margin-bottom:0px;}
 
-.Reviews a{color:#ccc;}
+.Reviews a{color:gainsboro;}
 
 @media(max-width:768px){
 .fs-btn{
@@ -1372,15 +1372,15 @@ height:100vh;}
 
 /* home page scroll */
 #home-intro:after {
-    content: " ";
+    content: "";
     height: 50px;
-    width: 33px;
+    width: 35px;
     background: url(scroll.png) bottom center;
-    position: absolute;
+    position: sticky;
     bottom: 20px;
     background-size: contain;
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
     font-size: 10px;
