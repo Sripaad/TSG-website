@@ -1373,7 +1373,9 @@ height:100vh;}
 
 /* home page scroll */
 #home-intro:after {
-    content: "";
+    content: "SCROLL";
+    color:white;
+    font: bolder;
     height: 50px;
     width: 35px;
     background: url(scroll.png) bottom center;
