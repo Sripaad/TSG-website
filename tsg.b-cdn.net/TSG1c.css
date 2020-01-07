@@ -52,8 +52,8 @@ width:100%;
 background: transparent;}
 
 .fixed-header{
-background:#142b6d !important;			
-padding: 10px 0px !important;
+background: transparent !important;			
+padding: 0px 0px !important;
 position:fixed !important;
 z-index:9999 !important;
 width:100% !important;}
@@ -73,7 +73,8 @@ max-width:100%;}
 
 .nav-menu {
     overflow: hidden;
-    background-color:transparent;
+    background-color: transparent;
+    /* #142b6d; */
 }
 
 .nav-menu a {
