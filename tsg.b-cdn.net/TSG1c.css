@@ -1009,7 +1009,7 @@ background-position: top center !important;
 padding:60px 0px;	
 }
 footer.visible{
-background: linear-gradient( rgba(3, 23, 66, 0.89), rgba(10, 43, 109, 0.54) ),url(footermin.jpg)!important;	}
+background: url(footermin.jpg)!important;	}
 @media (max-width:767px){
 footer{    
 padding:10px 15px;}    
@@ -1296,7 +1296,8 @@ background: linear-gradient(to right,#dd3333 0%, #dd9933 100%)!important;}
 margin: 0 auto;
 position: absolute;
 top: 50%;
-left: 50%;
+left: 23%;
+float: none;
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);}
 
@@ -1596,7 +1597,7 @@ opacity: .7;
 background-color: #234099 !important;
 background-attachment:fixed;
 padding:60px 0px;}
-#service.visible{background-image: linear-gradient( rgba(3, 23, 66, 0.89), rgba(10, 43, 109, 0.54) ),url(footermin.jpg) !important;}
+#service.visible{background-image: url(footermin.jpg) !important;}
 #service .container{
 position: relative;
 max-width: 95%;
@@ -2087,7 +2088,7 @@ justify-content: flex-end;
 }
 /** service section4 **/
 #ser-sec4{
-background:linear-gradient( rgba(3, 23, 66, 0.30), rgba(10, 43, 109, 0.54) ),url(footermin.jpg)!important;
+background:linear-gradient(url(footermin.jpg)!important;
 background-size: cover;
 background-position: center;
 padding: 60px 0px 0px 0px;    
